@@ -1,0 +1,242 @@
+@media only screen and (max-width: 1400px){
+    .page-wrapper{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .top-container{
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .inner-container-left{
+        height: 440px;
+    }
+
+    .inner-container-right{
+        display: flex;
+    }
+
+    .inner-container-left-heading{
+        padding: 0px 110px 54px 34px;
+    }
+
+    .inner-container-left-paragraph{
+        padding: 0px 194px 43px 34px;
+    }
+
+    .main-container-top{
+        padding: 0 34px 0px 34px;
+    }
+
+    .main-top-paragraph{
+        padding: 0 0px 33px 66px;
+
+    }
+
+    .inner-container-btn{
+        margin-left: 34px;
+    }
+
+    .main-sections{
+        padding: 0 15px 0 15px;
+    }
+
+    .card-mid{
+        margin: 0 15px 0 15px;
+    }
+
+    .section-box{
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .inner-container-left-heading{
+        padding: 24px 110px 32px 34px;
+    }
+
+    .main-top{
+        padding-top: 50px;
+    }
+
+    .main-top-heading{
+        margin-bottom: 66px;
+    }
+
+    .main-top-paragraph{
+        padding: 0 0px 33px 0px;
+    }
+
+    .menu-item{
+        padding: 0px 35px 0px 35px;
+    }
+
+    .card{
+        height: 270px;
+    }
+
+    .main-container-inner-wrapper{
+        padding-top: 100px;
+    }
+
+    .section-box{
+        height: 200px;
+    }
+
+    .section-box-one-heading{
+        font-size: 30px;
+    }
+
+    .section-box-paragraph{
+        font-size: 13px;
+    }
+
+    .span-number{
+        font-size: 25px;
+    }
+
+    .empty-space{
+        height: 200px;
+    }
+
+    .to-top{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 502px){
+    .main-top-heading{
+        font-size: 36px;
+    }
+
+    .main-top-btn{
+        font-size: 11px;
+        padding: 15px 38px 15px 38px;
+    }
+
+    .main-top-paragraph{
+        font-size: 13px;
+    }
+
+    .main-sections{
+        bottom: -101px;
+    }
+
+    .main-container-inner-wrapper{
+        padding: 0 34px 0 34px;
+    }
+
+    .main-container-bottom{
+        height: 570px;
+    }
+
+    .main-container-bottom-heading{
+        font-size: 36px;
+    }
+
+    .section-box{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 474px){
+    .inner-container-left{
+        height: 683px;
+        background-position: 50% 102%;
+    }
+
+    .inner-container-left-heading{
+        padding: 73px 25px 32px 25px
+    }
+
+    .inner-container-left-paragraph{
+        padding: 0px 25px 69px 25px;
+    }
+
+    .inner-container-right, .main-top, .main-sections{
+        display: block;
+    }
+
+    .menu, .main-top-btn{
+        display: none;
+    }
+
+    .main-top-left, .main-top-paragraph{
+        width: 100%;
+    }
+
+    .main-container-top{
+        height: auto;
+        padding: 0 34px 64px 34px;
+    }
+
+    .main-container-bottom{
+        padding: 0px 0 64px 0;
+    }
+
+    .main-sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+
+    .card-mid{
+        margin: 59px 0 59px 0;
+    }
+
+    .bottom-sections{
+        display: block;
+    }
+
+    .section-box-one-heading{
+        font-size: 38px;
+    }
+
+    .section-box-paragraph{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+    .inner-container-left{
+        height: 760px;
+        background-size: 350px;
+    }
+
+    .inner-container-left-heading{
+        font-size: 42px;
+        padding: 51px 25px 32px 25px;
+    }
+
+    .inner-container-left-paragraph{
+        font-size: 15px;
+        padding-bottom: 58px;
+    }
+
+    .inner-container-btn{
+        font-size: 11px;
+        padding: 15px 49px 15px 49px;
+        margin-left: 25px;
+    }
+
+    .main-top-heading{
+        font-size: 45px;
+    }
+
+    .main-top-paragraph{
+        font-size: 17px;
+    }
+
+    .span-number{
+        font-size: 35px;
+        left: 11px
+    }
+
+    .go-to-top{
+        display: none;
+    }
+}
